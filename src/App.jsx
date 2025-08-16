@@ -1,7 +1,8 @@
 import { useState } from "react";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header.jsx"
 import Landing from "./components/Landing.jsx"
+import Experience from "./pages/experience.jsx";
 
 
 function App() {
@@ -20,6 +21,12 @@ setIsHidden(true);
         <div className="flex lg:flex-row">
           <Header hiddingFn={hiddingFn}/>
           {!isHidden && <Landing/>}
+          <BrowserRouter>
+            <Routes>
+              <Route path="/experience" element={<Experience />} />
+              {/* Add other routes here as needed */}
+            </Routes>
+          </BrowserRouter>
         </div>
       </div>
     </>
