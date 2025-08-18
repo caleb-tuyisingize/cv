@@ -1,7 +1,7 @@
 export default function Education() {
   return (
         <>
-            <div className="p-2  rounded-br-[35px] w-full h-[calc(89vh-5rem)] overflow-y-scroll">
+            <div className="p-2  rounded-br-[35px] w-full h-[calc(89vh-5rem)] lg:h-[calc(79vh-5rem)] overflow-y-scroll">
            <h1 className="text-4xl font-semibold"><span className="text-gray-900 font-bold">M</span>y <br /> <span className="text-gray-900 font-bold">E</span>ducation <span className="text-gray-900 font-bold">S</span>tatus</h1><br />
            <hr className="w-[99%] bg-gray-900 h-1"/><br />
            <br />
