@@ -1,7 +1,7 @@
 export default function Experience() {
   return (
         <>
-        <div className="p-2 w-full  h-[calc(88vh-5rem)] overflow-y-scroll">
+        <div className="p-2 w-full h-[calc(89vh-5rem)] overflow-y-scroll">
            <h1 className="text-4xl font-semibold"><span className="text-gray-900 font-bold">W</span>ork <br /> <span className="text-gray-900 font-bold">E</span>xperience</h1><br />
            <hr className="w-[99%] bg-gray-900 h-1"/><br />
            <br />
