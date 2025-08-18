@@ -22,7 +22,7 @@ setIsHidden(true);
     <>
           <BrowserRouter>
       <div className="bg-gray-100 h-[calc(98vh-5rem)] rounded-b-[30px] mx-auto w-[90%] mt-10">
-        <h1 className="text-4xl text-center font-bold shadow-xl h-20">My CV</h1>
+        <h1 className="text-4xl text-center font-bold shadow-xl dark:bg-gray-800 dark:text-gray-100 dark:pt-2 h-20">My CV</h1>
         <div className="flex lg:flex-row">
           <ErrorBoundary>
           <Header hiddingFn={hiddingFn}/>
