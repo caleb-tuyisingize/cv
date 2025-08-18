@@ -8,7 +8,7 @@ import About from "./pages/About.jsx";
 import Skills from "./pages/Skills.jsx";
 import Contact from "./pages/Contact.jsx";
 import Education from "./pages/Education.jsx";
-
+import Footer from "./components/Footer.jsx";
 function App() {
   
 const [isHidden, setIsHidden] = useState(false);
@@ -37,8 +37,9 @@ setIsHidden(true);
              
             </Routes>
         </div>
-      </div>
-          </BrowserRouter>
+      </div><br /><br /><br />
+          <Footer/>
+      </BrowserRouter>
     </>
   )
 }

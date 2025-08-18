@@ -4,6 +4,7 @@ import SchoolIcon from '@mui/icons-material/School';
 import SyncAltIcon from '@mui/icons-material/SyncAlt';
 import PermPhoneMsgIcon from '@mui/icons-material/PermPhoneMsg';
 import BedroomBabyIcon from '@mui/icons-material/BedroomBaby';
+import AccessTimeFilledIcon from '@mui/icons-material/AccessTimeFilled';
 import {Link} from 'react-router-dom';
 
 
@@ -12,8 +13,8 @@ export default function Header({ hiddingFn }) {
    { icon: <PortraitIcon />, label: 'Caleb Tuyisingize', path: '/About' },
    { icon: <BadgeIcon />, label: 'Work Experience', path: '/Experience' },
    { icon: <PermPhoneMsgIcon />, label: 'Contact', path: '/Contact' },
-   { icon: <SchoolIcon />, label: 'Skills', path: '/Skills' },
-   { icon: <SyncAltIcon />, label: 'Education', path: '/Education' }
+   { icon: <AccessTimeFilledIcon />, label: 'Skills', path: '/Skills' },
+   { icon: <SchoolIcon />, label: 'Education', path: '/Education' }
   ];
 
   return (
