@@ -11,7 +11,7 @@ export default function Skills() {
   ];
   return (
         <>
-            <div className=" rounded-br-[35px] lg:h-[calc(79vh-5rem)] p-2 w-full h-[calc(89vh-5rem)] overflow-y-scroll">
+          <div className="ease-in-out duration-300 rounded-br-[35px] p-2 lg:h-[calc(79vh-5rem)] lg:mt-6 w-full h-[calc(89vh-5rem)] overflow-y-scroll">
            <h1 className="text-4xl font-semibold"><span className="text-gray-900 some font-bold">M</span>y <br /> <span className="text-gray-900 font-bold">C</span>urrent <br /> <span className="text-gray-900 font-bold">S</span>kills.</h1><br />
            <hr className="w-[99%] bg-gray-900 h-1"/><br />
            <br />
