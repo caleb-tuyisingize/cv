@@ -21,8 +21,8 @@ setIsHidden(true);
   return (
     <>
           <BrowserRouter>
-      <div className="bg-gray-100 h-[calc(98.6vh-5rem)] sm:h-[calc(103vh-5rem)] shadow-md rounded-b-[30px]  lg:rounded-tl-[20px]  lg:rounded-tr-[20px] mx-auto w-[90%] mt-10">
-        <h1 className="text-4xl text-center font-bold shadow-xl  lg:rounded-tl-[20px]  lg:rounded-tr-[20px] dark:bg-gray-800 dark:text-gray-100 lg:text-[18px] lg:underline dark:pt-2 h-20 lg:h-[100px]">My CV</h1>
+      <div className="bg-gray-100 min-h-[calc(98.6vh-5rem)] sm:h-[calc(103vh-5rem)] shadow-md rounded-b-[30px]  lg:rounded-tl-[20px]  lg:rounded-tr-[20px] mx-auto w-[90%] mt-10">
+        <h1 className="text-4xl text-center font-bold shadow-xl  lg:rounded-tl-[20px]  lg:rounded-tr-[20px] dark:bg-gray-800 dark:text-gray-100 lg:text-[18px] lg:underline dark:pt-2 h-20 lg:h-[100px]">My Blog</h1>
         <div className="flex lg:block">
           <ErrorBoundary>
           <Header hiddingFn={hiddingFn}/>

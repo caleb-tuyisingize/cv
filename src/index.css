@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@media screen and (max-width: 780px) {
+  .mones {
+    min-height: calc(91vh-6rem);
+  }
+  .iconic {
+    margin-top: 3.5rem;
+  }
+}
