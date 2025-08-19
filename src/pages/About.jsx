@@ -1,14 +1,14 @@
 export default function About() {
   return (
         <>
-            <div className="ease-in-out duration-300 rounded-br-[35px] p-2 lg:h-[calc(79vh-5rem)] lg:mt-6 w-full h-[calc(89vh-5rem)] overflow-y-scroll">
+            <div className="ease-in-out delay-200 duration-300 rounded-br-[35px] p-2 lg:h-[calc(83vh-5rem)] lg:mt-6 w-full h-[calc(89vh-5rem)] overflow-y-scroll">
            <h1 className="text-4xl font-semibold"><span className="text-gray-900 font-bold">M</span>y <br /> <span className="text-gray-900 font-bold">P</span>rofile</h1><br />
            <hr className="w-[99%] bg-gray-900 h-1"/><br />
            <br />
 
     <div className="bg-white rounded-2xl shadow-lg p-6">
         <p className="text-gray-700 mb-4">
-          Hi! My name is <strong>Caleb Tuyisingize</strong>. I’m a passionate IT student at <strong>RP Tumba College of Technology</strong> and currently undergoing hands-on trainings at <strong>GYM Rwanda</strong>. I enjoy learning and building web technologies, solving programming challenges, and creating projects that make a real impact.
+          Hi! My name is <strong>Caleb Tuyisingize</strong>. I'm a passionate IT student at <strong>RP Tumba College of Technology</strong> and currently undergoing hands-on trainings at <strong>GYM Rwanda</strong>. I enjoy learning and building web technologies, solving programming challenges, and creating projects that make a real impact.
         </p>
 
         <p className="text-gray-700 mb-4">

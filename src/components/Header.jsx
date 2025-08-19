@@ -18,7 +18,7 @@ export default function Header({ hiddingFn }) {
   ];
 
   return (
-    <header className="sticky left-0 z-10 w-20 h-[calc(91vh-6rem)] lg:w-full lg:h-[calc(21vh-6rem)] rounded-bl-[30px] lg:rounded-bl-[0] lg:text-[12px] dark:bg-gray-800 text-gray-900 dark:text-white lg:flex lg:justify-between lg:px-20 lg:items-center lg:mt-[-50px] lg:pt-2 p-4 text-center">
+    <header className="sticky left-0 z-10 sm:h-[calc(89.6vh-5rem)] md:h-[calc(89.6vh-5rem)] w-20 h-[calc(91vh-6rem)] lg:w-full lg:h-[calc(21vh-6rem)] rounded-bl-[30px] lg:rounded-bl-[0] lg:text-[12px] dark:bg-gray-800 text-gray-900 dark:text-white lg:flex lg:justify-between lg:px-20 lg:items-center lg:mt-[-50px] lg:pt-2 p-4 text-center">
       {menus.map((menu, i) => (
               <Link
           key={i}
@@ -29,7 +29,7 @@ export default function Header({ hiddingFn }) {
        
         <div 
           key={i}
-          className="profile scale-x-[2] focus:border-2 scale-y-[2] mt-16 lg:mt-0 lg:scale-y-[1.2] lg:scale-x-[1.2] cursor-pointer"
+          className="profile scale-x-[2] focus:border-2 scale-y-[2] mt-19 space-y-6 sm:space-y-1 md:space-y-1 lg:space-y-1 sm:mt-13 md:mt-13 lg:mt-0 lg:scale-y-[1.2] lg:scale-x-[1.2] cursor-pointer"
            onClick={() => hiddingFn(menu.label)}
            >
           {menu.icon}
