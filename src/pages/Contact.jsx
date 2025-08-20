@@ -39,7 +39,11 @@ export default function Contact() {
         {/* Message / Contact form placeholder */}
         <div>
           <h3 className="text-xl font-semibold">Message Me</h3>
-          <p className="text-gray-500">You can add a contact form here later if you want people to send you messages directly.</p>
+          <div className="w-full">
+            <textarea name="" id="" className="bg-gray-900 min-w-full rounded-lg min-h-[100px] max-h-[100px] lg:min-h-[200px] p-6 text-white"></textarea><br />
+            <button className="lg:mx-[30%] hover:scale-x-[1.1] duration-200 easy-in-out hover:scale-y-[1.1] border-2 p-5 lg:w-[40%] w-full rounded-xl bg-gray-900 text-white text-2xl">Send</button>
+          </div>
+         
         </div>
       </div>
            </div>
